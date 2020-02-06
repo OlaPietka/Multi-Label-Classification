@@ -1,7 +1,7 @@
-# Klasyfikacja wieloetykietowa
+# Mulit-label Classification
 
-## **Opis sieci** 
-Trenowanie sieci polegało na klasyfikacji wieloetykietowej. Sieć uczona była na następujących zestawach etykiet: 
+## **Description** 
+I built a mulit-label classification model that’s capable of detecting clothes and colors from image. Labels used for training are listed below:
 * Black jeans
 * Blue dress
 * Blue jeans
@@ -9,12 +9,12 @@ Trenowanie sieci polegało na klasyfikacji wieloetykietowej. Sieć uczona była 
 * Red dress 
 * Red shirt 
 
+### **Sample output images** 
 ![Image1](https://i.imgur.com/HzGTwGS.png) ![Image2](https://i.imgur.com/mlgmBoV.png)
  
-W pierwszej wersji programu została zaimplementowana sieć LeNet5, natomiast po próbach i głębszej analizie zdecydowałam się na sieć SmallerVGNet, która okazała się przynieść najlepsze wyniki.
-  
+LeNet5 was implemented in first version of this project, but after few tries and deep analysis I decided to use SmallerVBNet which turned out to have better resoults
 
-Hiperparametery | Wartości
+Hiperparameters | Values
 ------------ | -------------
 Batch size | 32 
 Image resize | 96 
@@ -24,54 +24,41 @@ Optimizer | Adam
 Loss | Binary corssentropy 
 Neural | network type SmallerVGNet 
 Epochs | 50, 75, 150, 500, 1000 
-
-## **Omówienie** 
-Każde uczenie omawiane poniżej zostało wykonane dla hiperparametrów wymienionych wcześniej. Testowanie odbywa się na 31 zdjęciach nie zawartych w zbiorze treningowym. 
  
-#### **Dla 50 epoch**:  
+ 
+### **Sample output plots*
+
+#### **For 50 epochs**:  
 ![Dla 50 epoch](/models/epochs50.png)
  
-Poprawnie rozpoznane dwie etykiety: 68%
-Poprawnie rozpoznana jedna etykieta: 32%  
-Nie rozpoznano poprawnie żadnej etykiety: 0%  
+Correctly recognized two labels: 68%
+Correctly recognized one label: 32%  
+Not recognized any label: 0%  
 
-#### **Dla 75 epoch**:  
+#### **For 75 epochs**:  
 ![Dla 75 epoch](/models/epochs75.png)
 
-Poprawnie rozpoznane dwie etykiety: 74%  
-Poprawnie rozpoznana jedna etykieta: 26%  
-Nie rozpoznano poprawnie żadnej etykiety: 0%  
+Correctly recognized two labels: 74%  
+Correctly recognized one label: 26%  
+Not recognized any label: 0%  
  
-#### **Dla 150 epoch**:   
+#### **For 150 epochs**:   
 ![Dla 150 epoch](/models/epochs150.png)
  
-Poprawnie rozpoznane dwie etykiety: 71%  
-Poprawnie rozpoznana jedna etykieta: 29%  
-Nie rozpoznano poprawnie żadnej etykiety: 0%  
+Correctly recognized two labels: 71%  
+Correctly recognized one label: 29%  
+Not recognized any label: 0%  
  
-#### **Dla 500 epoch**:
+#### **For 500 epochs**:
 ![Dla 500 epoch](/models/epochs500.png)
  
-Zdaje się, że val_loss zaczyna rosnąć przy takiej ilości epoch, przez co może dojść do przeuczenia sieci.
+Correctly recognized two labels: 77% 
+Correctly recognized one label: 23%  
+Not recognized any label: 0%  
  
-Poprawnie rozpoznane dwie etykiety: 77% 
-Poprawnie rozpoznana jedna etykieta: 23%  
-Nie rozpoznano poprawnie żadnej etykiety: 0%  
- 
-Mimo, że val_loss wydaje się rosnąć, osiągnęliśmy lepszy wynik niż w poprzednich przypadkach. Żeby dokładnie sprawdzić wzrost val_loss przeprowadziłam jeszcze jedno trenowanie dla dwukrotnie więcej epoch.
- 
-#### **Dla 1000 epoch**: 
+#### **For 1000 epochs**: 
 ![Dla 1000 epoch](/models/epochs1000.png)
  
-Teraz możemy łatwo zauważyć, że val_loss zaczyna rosnąć od około 150. 
- 
-Poprawnie rozpoznane dwie etykiety: 74%
-Poprawnie rozpoznana jedna etykieta: 26%
-Nie rozpoznano poprawnie żadnej etykiety: 0%
- 
-Mimo przeuczenia sieci osiągnęliśmy taki sam wynik jak dla 150 epoch. 
- 
-## Podsumowanie 
-Najlepszy wynik osiągnęliśmy dla 500 epoch w postaci 77% poprawnie rozpoznanych dwóch etykiet. 
- 
-Sieć nie była uczona dla zestawów „Red jeans” oraz „Black dress” dlatego dla własnie tych przykładów testowych mogliśmy się spodziewać najgorszego wyniku. 
+Correctly recognized two labels: 74%
+Correctly recognized one label: 26%
+Not recognized any label: 0%
