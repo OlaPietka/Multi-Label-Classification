@@ -29,10 +29,12 @@ Neural | network type SmallerVGNet
 Epochs | 50, 75, 150, 500, 1000 
  
  
-### **Sample output plots*
+### **Sample output plots**
 
 #### **For 50 epochs**:  
-![Dla 50 epoch](/models/epochs50.png)
+<p align="center">
+  <img width="150" height="150" src="/models/epochs50.png">
+</p>
  
 Correctly recognized two labels: 68%  
 Correctly recognized one label: 32%  
