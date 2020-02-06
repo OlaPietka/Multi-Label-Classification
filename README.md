@@ -12,7 +12,7 @@ Trenowanie sieci polegało na klasyfikacji wieloetykietowej. Sieć uczona była 
 W pierwszej wersji programu została zaimplementowana sieć LeNet5, natomiast po próbach i głębszej analizie zdecydowałam się na sieć SmallerVGNet, która okazała się przynieść najlepsze wyniki.
   
 
-Hiperparametery 
+Hiperparametery | Wartości
 ------------ | -------------
 Batch size | 32 
 Image resize | 96 
