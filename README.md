@@ -23,9 +23,10 @@ Loss | Binary corssentropy
 Neural | network type SmallerVGNet 
 Epochs | 50, 75, 150, 500, 1000 
 
-##**Omówienie** 
+## **Omówienie** 
 Każde uczenie omawiane poniżej zostało wykonane dla hiperparametrów wymienionych wcześniej. Testowanie odbywa się na 31 zdjęciach nie zawartych w zbiorze treningowym. 
  
+#### **Dla 50 epoch**:  
 ![Dla 50 epoch](/models/epochs50.png)
  
 Poprawnie rozpoznane dwie etykiety: 68% 
