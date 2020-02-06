@@ -8,6 +8,8 @@ Trenowanie sieci polegało na klasyfikacji wieloetykietowej. Sieć uczona była 
 * Blue shirt
 * Red dress 
 * Red shirt 
+
+![Image1](https://i.imgur.com/HzGTwGS.png)
  
 W pierwszej wersji programu została zaimplementowana sieć LeNet5, natomiast po próbach i głębszej analizie zdecydowałam się na sieć SmallerVGNet, która okazała się przynieść najlepsze wyniki.
   
