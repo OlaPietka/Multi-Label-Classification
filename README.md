@@ -29,32 +29,32 @@ Każde uczenie omawiane poniżej zostało wykonane dla hiperparametrów wymienio
 #### **Dla 50 epoch**:  
 ![Dla 50 epoch](/models/epochs50.png)
  
-Poprawnie rozpoznane dwie etykiety: 68%
-Poprawnie rozpoznana jedna etykieta: 32%
-Nie rozpoznano poprawnie żadnej etykiety: 0%
+Poprawnie rozpoznane dwie etykiety: 68%  
+Poprawnie rozpoznana jedna etykieta: 32%  
+Nie rozpoznano poprawnie żadnej etykiety: 0%  
 
 #### **Dla 75 epoch**:  
 ![Dla 75 epoch](/models/epochs75.png)
 
-Poprawnie rozpoznane dwie etykiety: 74%
-Poprawnie rozpoznana jedna etykieta: 26%
-Nie rozpoznano poprawnie żadnej etykiety: 0%
+Poprawnie rozpoznane dwie etykiety: 74%  
+Poprawnie rozpoznana jedna etykieta: 26%  
+Nie rozpoznano poprawnie żadnej etykiety: 0%  
  
 #### **Dla 150 epoch**:   
 ![Dla 150 epoch](/models/epochs150.png)
  
-Poprawnie rozpoznane dwie etykiety: 71%
-Poprawnie rozpoznana jedna etykieta: 29%
-Nie rozpoznano poprawnie żadnej etykiety: 0%
+Poprawnie rozpoznane dwie etykiety: 71%  
+Poprawnie rozpoznana jedna etykieta: 29%  
+Nie rozpoznano poprawnie żadnej etykiety: 0%  
  
 #### **Dla 500 epoch**:
 ![Dla 500 epoch](/models/epochs500.png)
  
 Zdaje się, że val_loss zaczyna rosnąć przy takiej ilości epoch, przez co może dojść do przeuczenia sieci.
  
-Poprawnie rozpoznane dwie etykiety: 77%
-Poprawnie rozpoznana jedna etykieta: 23%
-Nie rozpoznano poprawnie żadnej etykiety: 0%
+Poprawnie rozpoznane dwie etykiety: 77%  
+Poprawnie rozpoznana jedna etykieta: 23%  
+Nie rozpoznano poprawnie żadnej etykiety: 0%  
  
 Mimo, że val_loss wydaje się rosnąć, osiągnęliśmy lepszy wynik niż w poprzednich przypadkach. Żeby dokładnie sprawdzić wzrost val_loss przeprowadziłam jeszcze jedno trenowanie dla dwukrotnie więcej epoch.
  
