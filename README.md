@@ -32,35 +32,45 @@ Epochs | 50, 75, 150, 500, 1000
 ### **Sample output plots**
 
 #### **For 50 epochs**:  
-<img align="left" width="275" height="250" src="/models/epochs50.png">
- 
+<p align="left">
+  <img width="275" height="250" src="/models/epochs50.png">
+</p>
+
 Correctly recognized two labels: 68%  
 Correctly recognized one label: 32%  
 Not recognized any label: 0%  
 
 #### **For 75 epochs**:  
-<img align="left" width="275" height="250" src="/models/epochs75.png">
+<p align="left">
+  <img width="275" height="250" src="/models/epochs75.png">
+</p>
 
 Correctly recognized two labels: 74%  
 Correctly recognized one label: 26%   
 Not recognized any label: 0%  
  
 #### **For 150 epochs**:   
-<img align="left" width="275" height="250" src="/models/epochs150.png">
+<p align="left">
+  <img width="275" height="250" src="/models/epochs150.png">
+</p>
  
 Correctly recognized two labels: 71%  
 Correctly recognized one label: 29%  
 Not recognized any label: 0%  
  
 #### **For 500 epochs**:
-<img align="left" width="275" height="250" src="/models/epochs500.png">
+<p align="left">
+  <img width="275" height="250" src="/models/epochs500.png">
+</p>
  
 Correctly recognized two labels: 77%  
 Correctly recognized one label: 23%  
 Not recognized any label: 0%  
  
 #### **For 1000 epochs**: 
-<img align="left" width="275" height="250" src="/models/epochs1000.png">
+<p align="left">
+  <img width="275" height="250" src="/models/epochs1000.png">
+</p>
  
 Correctly recognized two labels: 74%  
 Correctly recognized one label: 26%  
