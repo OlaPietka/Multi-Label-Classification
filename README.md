@@ -10,7 +10,10 @@ I built a mulit-label classification model that’s capable of detecting clothes
 * Red shirt 
 
 ### **Sample output images** 
-![Image1](https://i.imgur.com/HzGTwGS.png) ![Image2](https://i.imgur.com/mlgmBoV.png)
+<p align="center">
+  <img width="300" height="420" src="https://i.imgur.com/HzGTwGS.png">
+  <img width="300" height="420" src="https://i.imgur.com/mlgmBoV.png">
+</p>
  
 LeNet5 was implemented in first version of this project, but after few tries and deep analysis I decided to use SmallerVBNet which turned out to have better resoults
 
