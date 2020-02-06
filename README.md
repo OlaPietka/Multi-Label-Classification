@@ -1,7 +1,7 @@
 # Mulit-label Classification
 
 ## **Description** 
-I built a mulit-label classification model that’s capable of detecting clothes and colors from image. Labels used for training are listed below:
+I built a mulit-label classification model that’s capable of detecting clothes and colors from image. Labels used for training are listed below:  
 * Black jeans
 * Blue dress
 * Blue jeans
