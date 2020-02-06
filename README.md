@@ -31,7 +31,7 @@ Epochs | 50, 75, 150, 500, 1000
 #### **For 50 epochs**:  
 ![Dla 50 epoch](/models/epochs50.png)
  
-Correctly recognized two labels: 68%
+Correctly recognized two labels: 68%  
 Correctly recognized one label: 32%  
 Not recognized any label: 0%  
 
@@ -39,7 +39,7 @@ Not recognized any label: 0%
 ![Dla 75 epoch](/models/epochs75.png)
 
 Correctly recognized two labels: 74%  
-Correctly recognized one label: 26%  
+Correctly recognized one label: 26%   
 Not recognized any label: 0%  
  
 #### **For 150 epochs**:   
@@ -59,6 +59,6 @@ Not recognized any label: 0%
 #### **For 1000 epochs**: 
 ![Dla 1000 epoch](/models/epochs1000.png)
  
-Correctly recognized two labels: 74%
-Correctly recognized one label: 26%
+Correctly recognized two labels: 74%  
+Correctly recognized one label: 26%  
 Not recognized any label: 0%
