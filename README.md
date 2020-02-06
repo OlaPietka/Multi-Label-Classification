@@ -52,7 +52,7 @@ Not recognized any label: 0%
 #### **For 500 epochs**:
 ![Dla 500 epoch](/models/epochs500.png)
  
-Correctly recognized two labels: 77% 
+Correctly recognized two labels: 77%  
 Correctly recognized one label: 23%  
 Not recognized any label: 0%  
  
