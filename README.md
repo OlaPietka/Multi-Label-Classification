@@ -29,7 +29,7 @@ Każde uczenie omawiane poniżej zostało wykonane dla hiperparametrów wymienio
 #### **Dla 50 epoch**:  
 ![Dla 50 epoch](/models/epochs50.png)
  
-Poprawnie rozpoznane dwie etykiety: ```diff - 68% ```
+Poprawnie rozpoznane dwie etykiety: 68%
 Poprawnie rozpoznana jedna etykieta: 32%  
 Nie rozpoznano poprawnie żadnej etykiety: 0%  
 
@@ -52,7 +52,7 @@ Nie rozpoznano poprawnie żadnej etykiety: 0%
  
 Zdaje się, że val_loss zaczyna rosnąć przy takiej ilości epoch, przez co może dojść do przeuczenia sieci.
  
-Poprawnie rozpoznane dwie etykiety: ```diff + 77% ``` 
+Poprawnie rozpoznane dwie etykiety: 77% 
 Poprawnie rozpoznana jedna etykieta: 23%  
 Nie rozpoznano poprawnie żadnej etykiety: 0%  
  
