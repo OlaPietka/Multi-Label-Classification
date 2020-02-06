@@ -33,7 +33,7 @@ Epochs | 50, 75, 150, 500, 1000
 
 #### **For 50 epochs**:  
 <p align="center">
-  <img width="150" height="150" src="/models/epochs50.png">
+  <img width="275" height="250" src="/models/epochs50.png">
 </p>
  
 Correctly recognized two labels: 68%  
