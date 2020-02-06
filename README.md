@@ -1,4 +1,4 @@
-# MultiLabelClassification_Py
+# Klasyfikacja wieloetykietowa
 
 ## **Opis sieci** 
 Trenowanie sieci polegało na klasyfikacji wieloetykietowej. Sieć uczona była na następujących zestawach etykiet: 
